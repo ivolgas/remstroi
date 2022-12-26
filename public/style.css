@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.header {
+    min-width: 100vh;
+    min-height: 40px;
+    background-color: #281200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    min-height: 100vh;
+    min-width: 100vh;
+    padding: 0 30px 30px 30px;
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #fff9d6;
+}
+
+.menu-item img {
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+.page-link {
+    padding: 20px;
+}
+
+.page-link.dropdown {
+    padding: 5px;
+}
+
+li .main-menu.dropdown {
+    position: absolute;
+    display: none;
+    background-color: #281200;
+}
+
+li:hover>.main-menu.dropdown {
+    display: block;
+}
+
+.link-reg {
+    align-items: flex-end;
+    display: flex;
+}
+
+.page-link:hover {
+    background-color: #fff9d6;
+    color: #281200;
+}
+
+.name-content {
+    font-size: 24px;
+    color: #281200;
+    padding: 20px;
+    text-align: center;
+}
+
+.img-main-page {
+    height: 510px;
+    margin-right: 10px;
+    float: left;
+}
+
+.button-fly {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button, .button {
+    background-color: #281200;
+    border: none;
+    color: #fff9d6;
+    font-size: 12px;
+    padding: 8px 15px;
+    margin: 10px 0 10px 0;
+    border-radius: 0.2em;   
+}
+
+.button:hover {
+    background-color: #602b00;    
+}
+
+.button:active {
+    background-color: #281200;    
+}
+
+.btn-basket {
+    color: #fff9d6;
+    background-color: #281200;
+    border: none;
+    border-radius: 0.2em;
+    margin: 0 5px;
+    min-width: 20px;
+}
+
+.btn-basket:hover {
+    background-color: #602b00;    
+}
+
+.btn-basket:active {
+    background-color: #281200;    
+}
+
+#sum {
+    width: 40px;
+}
+
+table {
+    margin: auto;
+}
+
+.table-content tr {
+    height: 25px;
+}
+
+.table-content td {
+    padding: 0 25px 0 25px;
+}
+
+.table-content tr:nth-child(2n) {
+    background-color: #fff9d6;
+}
+
+.basket {
+    display: flex;
+    margin: auto;
+}
+
+.main-review {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 20px;
+    min-width: 100vh;
+    min-height: 40px;
+    background-color: #281200;
+    color: #fff9d6;
+    display: flex;
+    justify-content: center;    
+}
+
+.info-footer {
+    padding: 10px 50px;    
+}
